@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+	a:link {
+		color: black;
+
+	}
+
+	a:visited {
+		color: black;
+
+	}
+
+	a:hover {
+		color: blue;
+
+	}
+</style>
+
+<body>
+<center>
+
+<h1>Shroominati Game Picker</h1>
+<button id="reroll" onclick="reroll();">And today's game is...</button>
+
+<br>
+
+<h3 id="name"><a id="link" href="">What's it gonna be?</a></h3>
+<p id="desc">We'll have to wait and see!</p>
+
+
+
+
+
+
+
+
+
+<script>
+
+function reroll() {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var myObj = JSON.parse(this.responseText);
+
+            var rand = Math.floor(Math.random() * myObj.games.length);
+
+            document.getElementById("link").innerHTML = myObj.games[rand].name;
+            document.getElementById("desc").innerHTML = myObj.games[rand].desc;
+            document.getElementById("link").setAttribute("href",myObj.games[rand].link);
+            document.getElementById("reroll").innerHTML = myObj.games[rand].reroll;
+        }
+    };
+    xmlhttp.open("GET", "games.json", true);
+    xmlhttp.send();
+
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
