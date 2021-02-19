@@ -67,6 +67,30 @@
             "reroll": "Predefined aims or goals, please!"
         },
         {
+            "name": "Unrailed!",
+            "desc": "Unrailed! is a co-op multiplayer game where you have to work together with your friends to build a train track across endless procedurally generated worlds. Master random encounters with its inhabitants, upgrade your train and keep it from derailing!",
+            "link": "https://store.steampowered.com/app/1016920/Unrailed/",
+            "reroll": "$20???"
+        },
+        {
+            "name": "Black Ops II (Plutonium)",
+            "desc": "Pushing the boundaries of what fans have come to expect from the record-setting entertainment franchise, Call of Duty®: Black Ops II propels players into a near future Cold War.",
+            "link": "https://forum.plutonium.pw/topic/2819/how-to-install-plutonium-t6",
+            "reroll": "I'm not downloading a torrent, you sick monster!"
+        },
+        {
+            "name": "Mindustry",
+            "desc": "Mindustry is a hybrid tower-defense sandbox factory game. Create elaborate supply chains of conveyor belts to feed ammo into your turrets, produce materials to use for building, and defend your structures from waves of enemies. Features include a map editor, 24 built-in maps, cross-platform multiplayer and large-scale PvP unit battles.",
+            "link": "https://mindustrygame.github.io",
+            "reroll": "Turns my mind into dust...ry idk"
+        },
+        {
+            "name": "Minecraft",
+            "desc": "Prepare for an adventure of limitless possibilities as you build, mine, battle mobs, and explore the ever-changing Minecraft landscape.",
+            "link": "https://www.minecraft.net/",
+            "reroll": "<i>really</i> same old same old."
+        },
+        {
             "name": "Team Fortress 2",
             "desc": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
             "link": "https://store.steampowered.com/app/440/Team_Fortress_2/",
