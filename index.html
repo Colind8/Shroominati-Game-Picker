@@ -30,46 +30,11 @@
 
 <br>
 
-<h3 id="name"><a id="link" href="">What's it gonna be?</a></h3>
+<h3 id="name"><a id="link" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">What's it gonna be?</a></h3>
 <p id="desc">We'll have to wait and see!</p>
 
 
 <!--=======================================================================-->
-<script>
-function reroll() {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            var myObj = JSON.parse(this.responseText);
-
-            var rand = Math.floor(Math.random() * myObj.games.length);
-            var systemshock = Math.floor(Math.random() * 500);
-
-            if (systemshock == 1) {
-                document.getElementById("link").innerHTML = "System Shock: Enhanced Edition";
-                document.getElementById("desc").innerHTML = "Re-discover what made System Shock the first of it's kind, a ground breaking immersive sim that would inspire a generation of games to come";
-                document.getElementById("link").setAttribute("href","https://store.steampowered.com/app/410710/System_Shock_Enhanced_Edition/");
-                document.getElementById("reroll").innerHTML = "It's not even multiplayer";
-            } else {
-                document.getElementById("link").innerHTML = myObj.games[rand].name;
-                document.getElementById("desc").innerHTML = myObj.games[rand].desc;
-                document.getElementById("link").setAttribute("href",myObj.games[rand].link);
-                document.getElementById("reroll").innerHTML = myObj.games[rand].reroll;
-            }
-
-            
-        }
-    };
-    xmlhttp.open("GET", "games.json", true);
-    xmlhttp.send();
-
-}
-
-
-
-
-
-
-</script>
+<script src="script.js"></script>
 </body>
 </html>
