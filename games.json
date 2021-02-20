@@ -103,6 +103,30 @@
             "reroll": "\"Paradox Interactive\""
         },
         {
+            "name": "Cards Against Humanity",
+            "desc": "Cards Against Humanity is a party game for horrible people. Unlike most of the party games you've played before, Cards Against Humanity is as despicable and awkward as you and your friends.",
+            "link": "https://pyx-2.pretendyoure.xyz/zy/game.jsp",
+            "reroll": "Not funny"
+        },
+        {
+            "name": "Jet Set Radio Future Multiplayer",
+            "desc": "JSRFMP is a fan made game based on the multiplayer mode of JSRF.",
+            "link": "https://gamejolt.com/games/JSRFMP/336004",
+            "reroll": "Jet Set Radi<b>no</b>"
+        },
+        {
+            "name": "Jackbox Party Pack",
+            "desc": "Play using phones, tablets or computers. No extra controllers needed!",
+            "link": "https://store.steampowered.com/developer/jackboxgames/list/37448",
+            "reroll": "Nobody here is funny"
+        },
+        {
+            "name": "Town of Salem",
+            "desc": "Inspired by the party games Werewolf and Mafia, Town of Salem is a game of murder, mystery and deception.",
+            "link": "https://store.steampowered.com/app/334230/Town_of_Salem/",
+            "reroll": "I don't feel like dying first night."
+        },
+        {
             "name": "Team Fortress 2",
             "desc": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
             "link": "https://store.steampowered.com/app/440/Team_Fortress_2/",
