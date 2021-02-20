@@ -91,6 +91,18 @@
             "reroll": "<i>really</i> same old same old."
         },
         {
+            "name": "Valheim",
+            "desc": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+            "link": "https://store.steampowered.com/app/892970/Valheim/",
+            "reroll": "Vikings stink or something idk"
+        },
+        {
+            "name": "Crusader Kings II",
+            "desc": "Explore one of the defining periods in world history in an experience crafted by the masters of Grand Strategy.",
+            "link": "https://store.steampowered.com/app/203770/Crusader_Kings_II/",
+            "reroll": "\"Paradox Interactive\""
+        },
+        {
             "name": "Team Fortress 2",
             "desc": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
             "link": "https://store.steampowered.com/app/440/Team_Fortress_2/",
