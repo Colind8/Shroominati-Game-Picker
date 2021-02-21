@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<title>Shroominati Game Picker</title>
+<link rel="icon" href="https://cdn.discordapp.com/attachments/460580255069896725/794415969384661012/2021.png" type="image/png">
+<style>
+	body {
+		font-size: 100%;
+	}
+
+	a:link {
+		color: black;
+
+	}
+
+	a:visited {
+		color: black;
+
+	}
+
+	a:hover {
+		color: blue;
+
+	}
+    table, th, td  {
+        border: 1px solid black;
+        border-style: double;
+    }
+    th {
+        font-size: 115%;
+    }
+</style>
+
+<body>
+	<center>
+		<!--=======================================================================-->
+		<a style="font-size: 150%;" href="index.html">back</a>
+        <p style="font-size: 150%;">These are all the games currently on the Shroominati Game Picker, including all the values associated with them.</p>
+        <p id="count">??? total games</p>
+		<table id="table">
+		</table>
+
+
+		<!--=======================================================================-->
+		<script>
+			var contents = "<tr><th>name</th><th>description</th><th>link</th><th>reroll</th></tr>";
+var xmlhttp = new XMLHttpRequest();
+
+xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var myObj = JSON.parse(this.responseText);
+
+            for (i = 0; i < myObj.games.length; i++) {
+                contents += "<tr>";
+                contents += "<td>" + myObj.games[i].name + "</td>";
+                contents += "<td>" + myObj.games[i].desc + "</td>";
+                contents += "<td><a href='" + myObj.games[i].link + "'>" + myObj.games[i].link + "</a></td>";
+                contents += "<td>" + myObj.games[i].reroll + "</td>";
+                contents += "</tr>";
+                
+            }
+            
+//xd this is funny
+contents += "<tr>";
+contents += "<td>System Shock: Enhanced Edition</td>";
+contents += "<td>Re-discover what made System Shock the first of it's kind, a ground breaking immersive sim that would inspire a generation of games to come</td>";
+contents += "<td><a href='https://store.steampowered.com/app/410710/System_Shock_Enhanced_Edition/'>https://store.steampowered.com/app/410710/System_Shock_Enhanced_Edition/</a></td>";
+contents += "<td>It's not even multiplayer</td>";
+contents += "</tr>";
+
+document.getElementById("count").innerHTML = (myObj.games.length + 1) + " total games";
+document.getElementById("table").innerHTML = contents;
+        }
+    }
+xmlhttp.open("GET", "games.json", true);
+xmlhttp.send();
+		</script>
+</body>
+
+</html>
