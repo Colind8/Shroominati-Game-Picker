@@ -127,6 +127,90 @@
             "reroll": "I don't feel like dying first night."
         },
         {
+            "name": "SCP: Secret Laboratory",
+            "desc": "Deep within the SCP Foundation during a containment breach, many of the anomalies have bypassed security and escaped from their chambers - without peaceful intentions. Become site personnel, a re-containment agent, or an anomalous entity and fight to take control of or escape the facility!",
+            "link": "https://store.steampowered.com/app/700330/SCP_Secret_Laboratory/",
+            "reroll": "too scary"
+        },
+        {
+            "name": "Astroneer",
+            "desc": "A game of aerospace industry and interplanetary exploration.",
+            "link": "https://store.steampowered.com/app/361420/ASTRONEER/",
+            "reroll": "Lamer No Man's Sky?"
+        },
+        {
+            "name": "No Man's Sky",
+            "desc": "No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe.",
+            "link": "https://store.steampowered.com/app/275850/No_Mans_Sky/",
+            "reroll": "Lamer Astroneer?"
+        },
+        {
+            "name": "Factorio",
+            "desc": "Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don't really like you.",
+            "link": "https://store.steampowered.com/app/427520/Factorio/",
+            "reroll": "GO ON SALE PLEASE"
+        },
+        {
+            "name": "Payday 2",
+            "desc": "PAYDAY 2 is an action-packed, four-player co-op shooter that once again lets gamers don the masks of the original PAYDAY crew - Dallas, Hoxton, Wolf and Chains - as they descend on Washington DC for an epic crime spree.",
+            "link": "https://store.steampowered.com/app/218620/PAYDAY_2/",
+            "reroll": "It was all apart of my plan"
+        },
+        {
+            "name": "Tetris (Jtris)",
+            "desc": "Online multiplayer puzzle game.",
+            "link": "https://jstris.jezevec10.com",
+            "reroll": "Tetris 99 but clone? l a m e"
+        },
+        {
+            "name": "Castle Crashers",
+            "desc": "Hack, slash, and smash your way to victory in this award winning 2D arcade adventure from The Behemoth!",
+            "link": "https://store.steampowered.com/app/204360/Castle_Crashers/",
+            "reroll": "Spam (A) to win"
+        },
+        {
+            "name": "BattleBlock Theater",
+            "desc": "Welcome to BattleBlock Theater! You’ve got no where to go but up...on stage. Play single player or co-op to free your friends and save Hatty Hattington! Jump, solve and battle your way through a mysterious theater inhabited by highly technological felines.",
+            "link": "https://store.steampowered.com/app/238460/BattleBlock_Theater/",
+            "reroll": "Mario but with cats... wait"
+        },
+        {
+            "name": "OpenSpades",
+            "desc": "OpenSpades is a clone of Voxlap Ace of Spades 0.75, which is a free multiplayer game created by Ben Aksoy. It's a simple first person shooter that brings destruction, construction and fist person shooters in general to a whole new level.",
+            "link": "https://gamejolt.com/games/openspades/46984",
+            "reroll": "Does anyone even play this?"
+        },
+        {
+            "name": "Borderlands 2",
+            "desc": "The Ultimate Vault Hunter’s Upgrade lets you get the most out of the Borderlands 2 experience.",
+            "link": "https://store.steampowered.com/app/49520/Borderlands_2/",
+            "reroll": "me when I border the lands idk"
+        },
+        {
+            "name": "Clone Drone in the Danger Zone",
+            "desc": "Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.",
+            "link": "https://store.steampowered.com/app/597170/Clone_Drone_in_the_Danger_Zone/",
+            "reroll": "Danger zone? More like lame zone xddd"
+        },
+        {
+            "name": "Chess",
+            "desc": "Chess is a recreational and competitive board game played between two players.",
+            "link": "https://www.chess.com/",
+            "reroll": "brain too smol"
+        },
+        {
+            "name": "Roblox",
+            "desc": "Roblox is ushering in the next generation of entertainment. Imagine, create, and play together with millions of players across an infinite variety of immersive, user-generated 3D worlds. Roblox is a global platform that brings people together through play.",
+            "link": "https://www.roblox.com/",
+            "reroll": "It's not free"
+        },
+        {
+            "name": "Killing Floor",
+            "desc": "6-player co-op survival horror at its finest! Free updates, free special events and a ridiculous amount of fun!",
+            "link": "https://store.steampowered.com/app/1250/Killing_Floor/",
+            "reroll": "too scary again"
+        },
+        {
             "name": "Team Fortress 2",
             "desc": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
             "link": "https://store.steampowered.com/app/440/Team_Fortress_2/",
