@@ -211,6 +211,12 @@
             "reroll": "too scary again"
         },
         {
+            "name": "Clone Hero",
+            "desc": "Clone Hero is a free rhythm game, which can be played with any 5 or 6 button guitar controller, game controllers, or just your standard computer keyboard. Download the game, copy your song charts into the song folder and enjoy hours of fun!",
+            "link": "https://clonehero.net",
+            "reroll": "I don't have those rare and expensive plastic instruments"
+        },
+        {
             "name": "Team Fortress 2",
             "desc": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
             "link": "https://store.steampowered.com/app/440/Team_Fortress_2/",
