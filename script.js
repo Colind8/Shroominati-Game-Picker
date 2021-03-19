@@ -6,7 +6,14 @@ function reroll() {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
 
-            var rand = Math.floor(Math.random() * myObj.games.length);
+            var rand;
+            var newrand = Math.floor(Math.random() * myObj.games.length);
+            while (newrand == rand) {
+                newrand = Math.floor(Math.random() * myObj.games.length);
+            }
+            rand = newrand;
+
+
             var systemshock = Math.floor(Math.random() * 500);
 
             if (systemshock == 1) {
