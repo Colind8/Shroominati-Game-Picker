@@ -223,6 +223,18 @@
             "reroll": "I believe this game was made by Paradox Interactive"
         },
         {
+            "name": "Skyrim Together",
+            "desc": "Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.",
+            "link": "https://skyrim-together.com",
+            "reroll": "Skyrim was already buggy enough"
+        },
+        {
+            "name": "Embr",
+            "desc": "Fight fires for fun and profit in this unpredictable and frantic multiplayer game. Team up with friends, take on daily challenges and climb to the top of the corporate firefighting ladder. More than one way to become a hero!",
+            "link": "https://store.steampowered.com/app/1062830/Embr/",
+            "reroll": "This game is uhh NOT fire hehehe"
+        },
+        {
             "name": "Team Fortress 2",
             "desc": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
             "link": "https://store.steampowered.com/app/440/Team_Fortress_2/",
